@@ -105,6 +105,8 @@ $ pkg-config opencv --modversion
 2. 编译生成yolov5s.FP32.trtmodel模型文件
 3. 推理获取结果
 
+![test_yolov5](https://github.com/Mitomzhou/TensorRT_CV/blob/main/data/test_yolov5.png)
+
 ~~~cpp
 #include <common/ilogger.hpp>
 #include <infer/trt_infer.hpp>
