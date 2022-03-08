@@ -6,7 +6,7 @@ TensorRT_CV是使用TensorRT的高性能计算机视觉推理框架，提供跨�
 - [x] TensorRT-8.0.1.6
 - [x] cudnn-8.2.2.26
 - [x] cuda-10.2
-- [x] pytorch-1.8
+- [x] pytorch-1.9.0
 - [x] opencv-4.5.0
 - [x] protobuf-3.11.4
 
