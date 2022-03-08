@@ -99,7 +99,13 @@ $ pkg-config opencv --modversion
 ~~~bash
 下载并解压TensorRT-8.0.1.6.Linux.x86_64-gnu.cuda-10.2.cudnn8.2.tar.gz
 ~~~
-
+7、编译project
+~~~bash
+cd TensorRT_CV
+mkdir build && cd build
+cmake ..
+make install
+~~~
 ### 二、测试
 1. 输入:yolov5s.onnx
 2. 编译生成yolov5s.FP32.trtmodel模型文件
